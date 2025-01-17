@@ -18,7 +18,7 @@ function App() {
   const [keySequence, setKeySequence] = useState('');
 
   useEffect(() => {
-    const startDate = new Date('2016-03-01T00:00:00');
+    const startDate = new Date('2015-10-15T00:00:00');
 
     const updateCounter = () => {
       const now = new Date();
@@ -188,7 +188,7 @@ function App() {
         <div className="mt-8 flex items-center justify-center gap-4">
           <Zap className="w-8 h-8 text-yellow-500 animate-pulse" />
           <p className="text-red-500 text-xl font-bold uppercase tracking-widest">
-            Crushing it since March 1, 2016
+            Crushing it since October 15, 2015
           </p>
           <Zap className="w-8 h-8 text-yellow-500 animate-pulse" />
         </div>
